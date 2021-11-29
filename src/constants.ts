@@ -75,6 +75,9 @@ export const CURSOR_TYPE = {
   AUTO: "",
 };
 
+export const CLASSES = {
+  SHAPE_ACTIONS_MENU: "App-menu__left",
+};
 
 export const POINTER_BUTTON = {
   MAIN: 0,
