@@ -21,22 +21,7 @@ const Navigation: FC = () => {
            <Route exact path="/note" component={NotePage} />
            <Route exact path="/sketch" component={SketchApp} />
            
-           {/* {routes.map((route, index) => {         
-             return ( 
-                  <Route 
-                    key={index}
-                    path={route.path}
-                    exact={route.exact}
-                    render={(props: RouteComponentProps<any>) => (
-                        <route.component
-                            name={route.name} 
-                            {...props}
-                            {...route.props}
-                    />
-                  )}
-                />
-            )
-           })} */}
+          
          </Switch>
          </BrowserRouter>
        </div>
