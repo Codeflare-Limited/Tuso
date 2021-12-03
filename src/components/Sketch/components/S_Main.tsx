@@ -308,12 +308,12 @@ class SketchMain extends React.Component<AppProps, TusodrawState> {
             onCollabButtonClick,
             renderTopRightUI,
             renderFooter,
-            renderCustomStats,
+            renderCustomStats,      
         } = this.props
    
         return (    
             <div className={clsx("excalidraw excalidraw-container", {
-                "excalidraw--view-mode": viewModeEnabled,
+                "excalidraw--view-mode": viewModeEnabled, 
                 "excalidraw--mobile": this.isMobile,
             })} tabIndex={0} ref={this.TusodrawContainerRef}>
                 <SketchAppContainerContext.Provider value={this.sketchContainerValue}>

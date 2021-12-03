@@ -3,7 +3,7 @@ import { useRef, useCallback, useEffect } from 'react'
 import { TOAST_TIMEOUT} from '../../../constants'
 
 
-
+import './Toast.scss'; 
 
 export const Toast = ({message, clearToast}: { message: string, clearToast: () => void }) => {
     const timerRef = useRef<number>(0);
