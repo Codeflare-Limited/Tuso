@@ -90,4 +90,11 @@ export class ActionManager implements ActionManagerInterface{
 
       return null; 
     }
+
+
+    executeAction = (action: Action) => {
+      this.updater(action.perform(this.getElementsIncludingDeleted(), this.getAppState(), null, this.app))
+    }
+
+    
 }
